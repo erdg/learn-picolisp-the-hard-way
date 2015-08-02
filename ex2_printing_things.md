@@ -2,17 +2,23 @@
 
 Welcome. Have you done Exercise 1 yet? Go back and do it again before you start printing things.
 
+Back so soon? Ask PicoLisp to math a just a few more simple things for you.
+
+
+Great, here we go. 
 ```lisp
 : (print hey)
 NIL-> NIL
 ``` 
+
 Hey! I asked you to print 'hey'. What gives?
+
 ```lisp
 : (print 'hey)
 hey-> hey
 ```
 
-That's better. Notice any differences between the last two questions? The second 'hey' has a single quote character, `'`. Now, forget that ever happened.
+  That's better. Notice any differences between the last two questions? The second 'hey' has a single quote character, `'`. Now, forget that ever happened.
 
 ```lisp 
 : (print "Yo dawg, what's poppin'?")    # mind the double qoutes
@@ -32,16 +38,18 @@ That's better. Notice any differences between the last two questions? The second
 >
 > "As you wish. I have printed 'hey'." 
 
-The first 'hey' appears on your screen. 
+  The first 'hey' appears on your screen. 
 
 > "Oh, and by the way, the answer to your question is 'hey'." 
 
-The second 'hey' appears after the `->`.
+  The second 'hey' appears after the `->`.
 
 > "Ahh... thanks PicoLisp."
 
+
+
 ### Things happen, that's all they ever do
-When you ask PicoLisp to do something, sometimes it will do things that have an effect on the outside world. That just happened! You asked PicoLisp to print something to the screen. And so it was! And then PicoLisp answered your question. And the answer happened to be what you told it to print. And... and... Make sense? Of course not. PicoLisp is a strange being. More questions.
+  When you ask PicoLisp to do something, sometimes it will do things that have an effect on the outside world. That just happened! You asked PicoLisp to print something to the screen. And so it was! And then PicoLisp answered your question. And the answer happened to be what you told it to print. And... and... Make sense? Of course not. PicoLisp is a strange being. More questions.
 
 
 ```lisp
@@ -58,13 +66,16 @@ When you ask PicoLisp to do something, sometimes it will do things that have an 
 ```
 
 
+
+### A glitch in the matrix
 Careful now, type this one exactly as I have.
 
 ```lisp
 : (print "Hello, PicoLisp)
 ```
 
-> "Ummm... PicoLisp? You there?" It's quite... quiet. *Too* quiet. You mash the keys and hit enter a couple times.
+> "Ummm... PicoLisp? You there?" 
+  It's quite... quiet. *Too* quiet. You mash the keys and hit enter a couple times.
 
 ```lisp
 : (print "Hello, PicoLisp)
