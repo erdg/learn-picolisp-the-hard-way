@@ -91,17 +91,17 @@ Nothing. Better call back later. Hit `ctrl-x` to end the call.
 : (print "Hello, PicoLisp)
 obegcrki
 pdyt
-kjb   # hits `ctrl-x`
+kjb   # hits 'ctrl-x'
 
 : 
 ```
 
-Oh snap, He's back! 
+Oh snap, we're back!
 
 **SUPER PRO TIP:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
 
 
-> "Sorry about that, the reception ain't great here. Can you print me a couple things for me, followed by a new line?"
+> "Sorry about that, the reception ain't great here. Can you print a couple things for me, followed by a new line?"
 >
 > "For suuurrrreeee."
 
