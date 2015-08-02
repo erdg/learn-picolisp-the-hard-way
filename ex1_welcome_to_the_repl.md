@@ -1,4 +1,8 @@
 # Exercise 1: Welcome to the REPL
+> "Welcome to the REPL, we got fun and games. We got everything you want honey, we know the names. We are the people that can find whatever you may need, if you got the money honey, we got your disease.
+>
+> In the REPL, welcome to the REPL. Watch it bring you to your knees. I want to watch you bleed." 
+> -- Guns N' Roses
 
 At your command line, type
 ```bash
