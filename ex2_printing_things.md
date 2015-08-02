@@ -49,7 +49,7 @@ hey-> hey
 
 
 ### Things happen, that's all they ever do
-  When you ask PicoLisp to do something, sometimes it will do things that have an effect on the outside world. That just happened! You asked PicoLisp to print something to the screen. And so it was! And then PicoLisp answered your question. And the answer happened to be what you told it to print. And... and... Make sense? Of course not. PicoLisp is a strange being. More questions.
+  When you ask PicoLisp to do something, sometimes it will do things that have an effect on the outside world. That. Just. HAPPENED!!! You asked PicoLisp to print something to the screen. And so it was! And then PicoLisp answered your question. And the answer happened to be what you told it to print. And... and... Make sense? Of course not. PicoLisp is a strange being. More questions.
 
 
 ```lisp
