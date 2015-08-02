@@ -68,4 +68,28 @@ kjb   # hits `ctrl-x`
 
 : 
 ```
-Oh snap, He's back! If you ever get disconnected, hit `ctrl-x` to hang up and call back. That will usually work. 
+> **Pro Tip:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
+
+Oh snap, He's back! 
+
+> "Sorry about that, the reception ain't great here. Can you print me a couple things for me, followed by a new line?"
+> "Affirmative."
+```lisp
+: (println "These lines are all over the place.")
+"These lines are all over the place."
+-> "These lines are all over the place."
+: (println "Did you catch that?")
+"Did you catch that?"
+-> "Did you catch that?"
+: (println "Yep.")
+"Yep."
+-> "Yep."
+```
+
+PicoLisp's response takes up two lines this time.  Things are starting to make a little more sense now.
+
+### Play time!
+Ask PicoLisp to `print` twenty more things for you. What happens if you forget the closing quotation mark on your phrase? Better `ctrl-x` and reconnect.
+
+Ask PicoLisp to `println` twenty more things for you. Seriously, PicoLisp *loves* to print stuff.
+
