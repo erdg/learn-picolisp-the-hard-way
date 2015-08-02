@@ -1,6 +1,6 @@
 # Exercise 2 - Printing Things
 
-Welcome. Have you done Exercise 1 yet? Go back and do it again. 
+Welcome. Have you done Exercise 1 yet? Go back and do it again before you start printing things.
 
 ```lisp
 : (print hey)
@@ -15,7 +15,7 @@ hey-> hey
 That's better. Notice any differences between the last two questions? The second 'hey' has a single quote character, `'`. Now, forget that ever happened.
 
 ```lisp 
-: (print "Yo dawg, what's poppin'?")
+: (print "Yo dawg, what's poppin'?")    # mind the double qoutes
 "Yo dawg, what's poppin'?"-> "Yo dawg, what's poppin'?"
 : (print "That's weird...")
 "That's weird..."-> "That's weird..."
@@ -23,17 +23,26 @@ That's better. Notice any differences between the last two questions? The second
 "Why does PicoLisp print everything twice?"-> "Why does PicoLisp print everything twice?"
 ```
 
+
 > "My good friend, would you be able to print something for me?"
 >
 > "Most certainly. What shall I print?"
 > 
 > "Just print 'hey'."
 >
-> "As you wish. I have printed 'hey'." The first 'hey' appears on your screen. "Oh, and by the way, the answer to your question is 'hey'." The second 'hey' comes up after the `->`.
->
+> "As you wish. I have printed 'hey'." 
+
+The first 'hey' appears on your screen. 
+
+> "Oh, and by the way, the answer to your question is 'hey'." 
+
+The second 'hey' appears after the `->`.
+
 > "Ahh... thanks PicoLisp."
 
+
 When you ask PicoLisp to do something, sometimes it will do things that have an effect on the outside world. That just happened! You asked PicoLisp to print something to the screen. And so it was, and then PicoLisp answered your question. And the answer happened to be what you told it to print. Make sense? Of course not. PicoLisp is a strange being. More questions.
+
 
 ```lisp
 : (print "What a strange world to live in...")
@@ -48,7 +57,9 @@ When you ask PicoLisp to do something, sometimes it will do things that have an 
 "I have a favorite video game!"-> "I have a favorite video game!"
 ```
 
+
 Careful now, type this one exactly as I have.
+
 ```lisp
 : (print "Hello, PicoLisp)
 ```
@@ -72,14 +83,15 @@ kjb   # hits `ctrl-x`
 
 : 
 ```
+
 Oh snap, He's back! 
 
-**Pro Tip:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
+**SUPER PRO TIP:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
 
 
 > "Sorry about that, the reception ain't great here. Can you print me a couple things for me, followed by a new line?"
 >
-> "Affirmative."
+> "For suuurrrreeee."
 
 ```lisp
 : (println "These lines are all over the place.")
@@ -94,6 +106,7 @@ Oh snap, He's back!
 ```
 
 PicoLisp's response takes up two lines this time.  Things are starting to make a little more sense now.
+
 
 ### Play time!
 Ask PicoLisp to `print` twenty more things for you. What happens if you forget the closing quotation mark on your phrase? Better `ctrl-x` and reconnect.
