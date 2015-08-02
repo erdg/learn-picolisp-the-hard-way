@@ -52,14 +52,18 @@ Careful now, type this one exactly as I have.
 ```lisp
 : (print "Hello, PicoLisp)
 ```
+
 > "Ummm... PicoLisp? You there?" It's quite... quiet. *Too* quiet. You mash the keys and hit enter a couple times.
+
 ```lisp
 : (print "Hello, PicoLisp)
 obegcrki
 pdyt
 kjb
 ```
+
 Nothing. Better call back later. Hit `ctrl-x` to end the call.
+
 ```lisp
 : (print "Hello, PicoLisp)
 obegcrki
@@ -68,12 +72,15 @@ kjb   # hits `ctrl-x`
 
 : 
 ```
-> **Pro Tip:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
+
+**Pro Tip:** If you ever get disconnected, hit `ctrl-x` to hang up and call back.
 
 Oh snap, He's back! 
 
 > "Sorry about that, the reception ain't great here. Can you print me a couple things for me, followed by a new line?"
+>
 > "Affirmative."
+
 ```lisp
 : (println "These lines are all over the place.")
 "These lines are all over the place."
