@@ -75,6 +75,7 @@ Careful now, type this one exactly as I have.
 ```
 
 > "Ummm... PicoLisp? You there?" 
+
   It's quite... quiet. *Too* quiet. You mash the keys and hit enter a couple times.
 
 ```lisp
