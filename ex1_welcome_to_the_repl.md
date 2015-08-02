@@ -5,20 +5,20 @@ At your command line, type
 $ pil +
 :
 ```
-A happy little colon should be looking at you, awaiting any questions you might have about PicoLisp.
+A happy little colon should appear, awaiting any questions you might have about PicoLisp.
 
 But first things first. What the heck is a 'REPL', anyway? It stands for Read Evaluate Print Loop. That's a fancy way of saying that PicoLisp is going to look at what you type, do something with it, show you the result, and then wait for you to type something else.
 
 So let's get typing!
 ```lisp
-: 15
+: 15    # type '15' and hit 'enter'
 -> 15
 : 16
 -> 16
 : 23457890
 -> 23457890
 ```
-Numbers! My favorite! But... what's going on here? I like to think of it as having a little conversation with PicoLisp. PicoLisp is pretty shy, however, and will only talk to you if you ask questions. Pretty one-sided. And PicoLisp really only likes to talk about itself. It's a computer program though, so we can excuse the slight social awkwardness. The `:` is PicoLisp's way of letting you know that its ready for you next question; the `->` is the answer to that question. The above example thus becomes something like this,
+Numbers! My favorite! But... what's going on here? I like to think of it as having a little conversation with PicoLisp. PicoLisp is pretty shy, however, and will only talk to you if you ask questions. Pretty one-sided. And PicoLisp really only likes to talk about itself. It's a computer program though, so we can excuse the slight social awkwardness. The `:` is PicoLisp's way of letting you know that its ready for you next question; the answer is anything that follows the `->`. The above example thus becomes a little conversation,
 
 > "Hey PicoLisp, what's `15`?"
 >
@@ -48,7 +48,7 @@ What?! Oh yeah, I forgot to mention that PicoLisp is pretty particular about how
 It takes a little getting used to, for sure. But it turns out to be pretty slick. Instead of writing,
 ```lisp
 : (1 + 2 + 3 + 4 + 5 + 6)  # PicoLisp will get mad if you ask this
--> 21
+-> can u rephrase that, plz? k thx. 
 ```
 We can just write,
 ```lisp
